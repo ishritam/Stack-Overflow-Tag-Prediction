@@ -21,12 +21,19 @@ Data Source: https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction
 
 
 ### Steps that has been followed:
+
 Step_1: As the dataset was present in Kaggle, I took some reference from web and use kaggle
 dataset in Google Colab.
+
 Step_2: Analyze data and determine features that can be built using the dataset
+
 Step_3: For feature extraction TFIDF and BOW is used.
+
 Step_4: Split data into Test and Train data.(80:20)
+
 Step_5: Used bag of words upto 4 grams and computed the micro f1 score with Logistic
 regression(OvR)
+
 Step_6: Applied Logistic Regression and Linear-SVM.
+
 Step_7: Found the corresponding Micro F1 score in each model.
